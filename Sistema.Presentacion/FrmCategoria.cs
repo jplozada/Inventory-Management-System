@@ -1,18 +1,12 @@
 ﻿using Sistema.Negocio;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Sistema.Presentacion
 {
     public partial class FrmCategoria : Form
     {
+        private string NombreAnt;
         public FrmCategoria()
         {
             InitializeComponent();
@@ -24,6 +18,7 @@ namespace Sistema.Presentacion
             {
                 DgvListado.DataSource = NCategoria.Listar();
                 this.Formato();
+                this.Limpiar();
                 LblTotal.Text = "Total registros: " + Convert.ToString(DgvListado.Rows.Count);
             }
             catch(Exception ex)
@@ -61,6 +56,7 @@ namespace Sistema.Presentacion
             TxtId.Clear();
             TxtDescripcion.Clear();
             BtnInsertar.Visible = true;
+            BtnActualizar.Visible = false;
             ErrorIcono.Clear();
         }
         private void MensajeError(string Mensaje)
@@ -116,6 +112,49 @@ namespace Sistema.Presentacion
         {
             this.Limpiar();
             TabGeneral.SelectedIndex = 0;
+        }
+
+        private void DgvListado_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.Limpiar();
+            BtnActualizar.Visible = true;
+            BtnInsertar.Visible = false;
+            TxtId.Text = Convert.ToString(DgvListado.CurrentRow.Cells["ID"].Value);
+            this.NombreAnt = Convert.ToString(DgvListado.CurrentRow.Cells["Nombre"].Value);
+            TxtNombre.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Nombre"].Value);
+            TxtDescripcion.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Descripcion"].Value);
+            TabGeneral.SelectedIndex = 1;
+        }
+
+        private void BtnActualizar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string Rpta = "";
+                if (TxtNombre.Text == string.Empty || TxtId.Text == string.Empty)
+                {
+                    MensajeError("Falta ingresar algunos datos, serán remarcados.");
+                    ErrorIcono.SetError(TxtNombre, "Ingrese un nombre.");
+                }
+                else
+                {
+                    Rpta = NCategoria.Actualizar(Convert.ToInt32(TxtId.Text), this.NombreAnt, TxtNombre.Text.Trim(), TxtDescripcion.Text.Trim());
+                    if (Rpta.Equals("OK"))
+                    {
+                        this.MensajeOk("Se actualizó de forma correcta el registro");
+                        this.Limpiar();
+                        this.Listar();
+                    }
+                    else
+                    {
+                        this.MensajeError(Rpta);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
         }
     }
 }
