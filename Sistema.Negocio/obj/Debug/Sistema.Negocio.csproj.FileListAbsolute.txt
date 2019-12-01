@@ -1,0 +1,10 @@
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\bin\Debug\Sistema.Negocio.dll
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\bin\Debug\Sistema.Negocio.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\bin\Debug\Sistema.Datos.dll
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\bin\Debug\Sistema.Entidades.dll
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\bin\Debug\Sistema.Datos.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\bin\Debug\Sistema.Entidades.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\obj\Debug\Sistema.Negocio.csprojAssemblyReference.cache
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\obj\Debug\Sistema.Negocio.csproj.CopyComplete
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\obj\Debug\Sistema.Negocio.dll
+D:\Visual Studio 2019\Sistema\Sistema.Negocio\obj\Debug\Sistema.Negocio.pdb

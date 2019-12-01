@@ -1,0 +1,8 @@
+D:\Visual Studio 2019\Sistema\Sistema.Datos\bin\Debug\Sistema.Datos.dll
+D:\Visual Studio 2019\Sistema\Sistema.Datos\bin\Debug\Sistema.Datos.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Datos\bin\Debug\Sistema.Entidades.dll
+D:\Visual Studio 2019\Sistema\Sistema.Datos\bin\Debug\Sistema.Entidades.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.csprojAssemblyReference.cache
+D:\Visual Studio 2019\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.csproj.CopyComplete
+D:\Visual Studio 2019\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.dll
+D:\Visual Studio 2019\Sistema\Sistema.Datos\obj\Debug\Sistema.Datos.pdb
