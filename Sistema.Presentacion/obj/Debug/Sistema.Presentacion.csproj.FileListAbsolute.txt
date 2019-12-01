@@ -1,3 +1,16 @@
 D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csprojAssemblyReference.cache
 D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.Properties.Resources.resources
 D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csproj.GenerateResource.cache
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.exe.config
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.exe
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Presentacion.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Negocio.dll
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Datos.dll
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Entidades.dll
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Negocio.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Datos.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\bin\Debug\Sistema.Entidades.pdb
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmPrincipal.resources
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csproj.CopyComplete
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.exe
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.pdb
