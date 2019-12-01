@@ -32,6 +32,19 @@ namespace Sistema.Presentacion
             }
         }
 
+        private void Buscar()
+        {
+            try
+            {
+                DgvListado.DataSource = NCategoria.Buscar(TxtBuscar.Text);
+                this.Formato();
+                LblTotal.Text = "Total registros: " + Convert.ToString(DgvListado.Rows.Count);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.StackTrace);
+            }
+        }
         private void Formato()
         {
             DgvListado.Columns[0].Visible = false;
@@ -45,6 +58,11 @@ namespace Sistema.Presentacion
         private void FrmCategoria_Load(object sender, EventArgs e)
         {
             this.Listar();
+        }
+
+        private void BtnBuscar_Click(object sender, EventArgs e)
+        {
+            this.Buscar();
         }
     }
 }
