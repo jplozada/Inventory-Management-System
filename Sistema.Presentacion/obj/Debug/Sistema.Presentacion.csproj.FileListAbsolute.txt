@@ -1,0 +1,3 @@
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csprojAssemblyReference.cache
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.Properties.Resources.resources
+D:\Visual Studio 2019\Sistema\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.csproj.GenerateResource.cache
